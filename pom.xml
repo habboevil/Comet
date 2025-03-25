@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>Comet</groupId>
+    <artifactId>Comet-Parent</artifactId>
+
+    <packaging>pom</packaging>
+
+    <version>2.2.0</version>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
+
+    <modules>
+        <module>Comet-API</module>
+        <module>Comet-Server-Protocol</module>
+        <module>Comet-Server</module>
+
+        <module>Comet-Common</module>
+
+        <module>Comet-Game-Groups</module>
+        <module>Comet-Game-Achievements</module>
+        <module>Comet-Game-Items</module>
+        <module>Comet-Game-Rooms</module>
+
+
+        <module>Comet-Storage-API</module>
+        <module>Comet-Storage-MySQL</module>
+
+        <module>Comet-Networking-API</module>
+        <module>Comet-Networking-Composers</module>
+        <module>Comet-StressTest</module>
+    </modules>
+
+</project>
