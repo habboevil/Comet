@@ -30,6 +30,6 @@ Credits for:
 - Dennis⚡(Object) &rArr; Atom CMS  
 - Bill and the Nitro Team
 
-<div align="center">
+<a href="https://github.com/habboevil/AtomCMS-Comet" align="center">
 <img src="https://i.imgur.com/Lzgqaei.png" alt="Logo"/>
-</div>
+</a>
